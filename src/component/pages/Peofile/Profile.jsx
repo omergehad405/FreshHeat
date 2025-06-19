@@ -66,14 +66,6 @@ function Profile() {
     );
   }
 
-  if (!userData) {
-    return (
-      <div className="min-h-screen flex items-center justify-center text-xl text-red-600">
-        حدث خطأ: لم يتم العثور على بيانات المستخدم.
-      </div>
-    );
-  }
-
   return (
     <div className="min-h-screen bg-[#f8f9fa] flex flex-col md:flex-row items-start justify-center px-6 py-10 gap-8">
       {/* Sidebar */}
