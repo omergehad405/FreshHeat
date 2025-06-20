@@ -8,7 +8,7 @@ function ServiceCard({ service }) {
       </div>
 
       <img
-        src="../Service/servicesShape1_1.png"
+        src="./Service/servicesShape1_1.png"
         alt="icon"
         className="absolute top-5 right-5"
       />
@@ -20,7 +20,7 @@ function ServiceCard({ service }) {
       </div>
 
       <img
-        src="../Service/servicesShape1_2.png"
+        src="./Service/servicesShape1_2.png"
         alt="icon"
         className="absolute bottom-5 right-5"
       />

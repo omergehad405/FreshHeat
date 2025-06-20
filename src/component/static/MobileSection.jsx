@@ -53,15 +53,15 @@ function MobileSection() {
 
   return (
     <div className="lg:w-[80%] w-[95%] mx-auto my-20">
-      <div className="flex justify-between overflow-hidden relative bg-[url(../backGround/ctaBG3_1.jpg)] rounded-tl-[3rem] rounded-br-[3rem] bg-cover lg:p-10 p-5 bg-center bg-no-repet w-full">
+      <div className="flex justify-between overflow-hidden relative bg-[url(./backGround/ctaBG3_1.jpg)] rounded-tl-[3rem] rounded-br-[3rem] bg-cover lg:p-10 p-5 bg-center bg-no-repet w-full">
         <img
-          src="../Mobile/ctaShape3_1.png"
+          src="./Mobile/ctaShape3_1.png"
           alt=""
           className="absolute hidden lg:block top-5 left-5"
           ref={floatingImageRef1}
         />
         <img
-          src="../Mobile/ctaShape3_2.png"
+          src="./Mobile/ctaShape3_2.png"
           alt=""
           className="absolute hidden lg:block bottom-5 left-0"
           ref={floatingImageRef3}
@@ -71,11 +71,11 @@ function MobileSection() {
           <div className="relative flex flex-col justify-center items-left text-white lg:w-[60%] ">
             <h3 className="font-bold text-white mb-1 relative flex items-center text-[1.2rem] gap-2 ">
               <span>
-                <img src="../Home/titleIcon.svg" alt="" />
+                <img src="./Home/titleIcon.svg" alt="" />
               </span>
               DOWNLOAD APP
               <span>
-                <img src="../Home/titleIcon.svg" alt="" />
+                <img src="./Home/titleIcon.svg" alt="" />
               </span>
             </h3>
             <h1 className="font-bold text-[3rem]">
@@ -99,20 +99,20 @@ function MobileSection() {
           <div className="flex items-center justify-center absolute right-10 bottom-0">
             <div className="relative ">
               <img
-                src="../Mobile/ctaThumb3_1.png"
+                src="./Mobile/ctaThumb3_1.png"
                 alt="app image"
                 className="z-20 "
                 ref={floatingImageRef2}
               />
               <img
-                src="../Mobile/ctaShape3_6.png"
+                src="./Mobile/ctaShape3_6.png"
                 alt=""
                 className="absolute top-0 -left-5"
                 ref={rotatingRefs}
               />
             </div>
             <img
-              src="../Mobile/aboutShape1_3.png"
+              src="./Mobile/aboutShape1_3.png"
               alt="food image"
               className="z-10 w-[300px] relative -bottom-20"
               ref={floatingImageRef4}
@@ -121,12 +121,12 @@ function MobileSection() {
         </div>
 
         <img
-          src="../Mobile/ctaShape3_5.png"
+          src="./Mobile/ctaShape3_5.png"
           alt=""
           className="absolute hidden lg:block bottom-0 left-1/2 -translate-x-1/2"
         />
         <img
-          src="../Mobile/ctaShape3_4.png"
+          src="./Mobile/ctaShape3_4.png"
           alt=""
           className="absolute hidden lg:block top-0 right-0"
         />

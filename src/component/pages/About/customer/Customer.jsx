@@ -15,19 +15,19 @@ function Customer({ marginTop = "mt-40", marginBottom = "mb-40" }) {
       id: 1,
       name: "Mena",
       des: "Contrary to popular belief, Lorem Ipsum is not simply random text...",
-      img: "/About/Testimonials/testimonialProfile2_1.png",
+      img: "./About/Testimonials/testimonialProfile2_1.png",
     },
     {
       id: 2,
       name: "Franklin",
       des: "Customer feedback 2: Lorem ipsum dolor sit amet...",
-      img: "/About/Testimonials/testimonialProfile2_2.png",
+      img: "./About/Testimonials/testimonialProfile2_2.png",
     },
     {
       id: 3,
       name: "Bop",
       des: "Customer feedback 3: Atque, impedit nobis!",
-      img: "/About/Testimonials/testimonialProfile2_3.png",
+      img: "./About/Testimonials/testimonialProfile2_3.png",
     },
   ];
 
@@ -126,7 +126,7 @@ function Customer({ marginTop = "mt-40", marginBottom = "mb-40" }) {
         <div className="max-w-md w-full px-4">
           <LazyLoadImage
             effect="blur"
-            src="/About/Testimonials/testimonialThumb2_1.png"
+            src="./About/Testimonials/testimonialThumb2_1.png"
             alt="Img"
             className="w-full"
           />
@@ -135,12 +135,12 @@ function Customer({ marginTop = "mt-40", marginBottom = "mb-40" }) {
 
       {/* Decorative Images */}
       <img
-        src="/public/About/Testimonials/chili-shape.png"
+        src="./About/Testimonials/chili-shape.png"
         alt="img"
         className="absolute top-0 right-0 hidden xl:block"
       />
       <img
-        src="/public/About/Testimonials/vagetable-shape.png"
+        src="./About/Testimonials/vagetable-shape.png"
         alt="img"
         className="absolute bottom-0 left-0 hidden xl:block"
       />
