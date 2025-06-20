@@ -6,17 +6,20 @@ import { CartProvider } from "./component/context/CartContext/CartContext.jsx";
 import { BlogProvider } from "./component/context/BlogContext/BlogContext.jsx";
 import { CheckOutContextProvider } from "./component/context/CheckOutContext/CheckOutContext.jsx";
 import { PaymentProvider } from "./component/context/PaymentContext/PaymentContext.jsx";
+import { HashRouter } from "react-router-dom";
 
 createRoot(document.getElementById("root")).render(
-  <StrictMode>
-    <CartProvider>
-      <BlogProvider>
-        <PaymentProvider>
-          <CheckOutContextProvider>
-            <App />
-          </CheckOutContextProvider>
-        </PaymentProvider>
-      </BlogProvider>
-    </CartProvider>
-  </StrictMode>
+  <HashRouter>
+    <StrictMode>
+      <CartProvider>
+        <BlogProvider>
+          <PaymentProvider>
+            <CheckOutContextProvider>
+              <App />
+            </CheckOutContextProvider>
+          </PaymentProvider>
+        </BlogProvider>
+      </CartProvider>
+    </StrictMode>
+  </HashRouter>
 );
