@@ -21,7 +21,7 @@ function CurdsFood() {
       <div
         className="relative object-cover w-auto h-auto flex justify-center items-center gap-3"
         style={{
-          backgroundImage: `url('/About/offers/offerBG2_1.jpg')`,
+          backgroundImage: `url('./About/offers/offerBG2_1.jpg')`,
         }}
       >
         {/* Left Content */}
@@ -46,7 +46,7 @@ function CurdsFood() {
         <div>
           <LazyLoadImage
             effect="blur"
-            src="/About/offers/offerThumb1_2.png"
+            src="./About/offers/offerThumb1_2.png"
             alt="Thumb"
           />
         </div>
@@ -55,7 +55,7 @@ function CurdsFood() {
         <div className="absolute left-2/5 top-3 animated-shape">
           <LazyLoadImage
             effect="blur"
-            src="/About/offers/offerShape1_4.png"
+            src="./About/offers/offerShape1_4.png"
             alt="Shape"
           />
         </div>
@@ -65,7 +65,7 @@ function CurdsFood() {
       <div
         className="relative object-cover w-auto h-auto  flex justify-center items-center gap-3"
         style={{
-          backgroundImage: `url('/About/offers/offerBG2_2.jpg')`,
+          backgroundImage: `url('./About/offers/offerBG2_2.jpg')`,
         }}
       >
         {/* Left Content */}
@@ -90,7 +90,7 @@ function CurdsFood() {
         <div>
           <LazyLoadImage
             effect="blur"
-            src="/About/offers/offerThumb1_3.png"
+            src="./About/offers/offerThumb1_3.png"
             alt="Thumb"
           />
         </div>
@@ -99,7 +99,7 @@ function CurdsFood() {
         <div className="absolute left-2/5 top-3 animated-shape">
           <LazyLoadImage
             effect="blur"
-            src="/About/offers/offerShape1_4.png"
+            src="./About/offers/offerShape1_4.png"
             alt="Shape"
           />
         </div>
@@ -109,7 +109,7 @@ function CurdsFood() {
       <div
         className="relative object-cover w-auto h-[275px]  flex justify-center items-center gap-3"
         style={{
-          backgroundImage: `url('/About/offers/offerBG2_3.jpg')`,
+          backgroundImage: `url('./About/offers/offerBG2_3.jpg')`,
         }}
       >
         {/* Left Content */}
@@ -134,7 +134,7 @@ function CurdsFood() {
         <div>
           <LazyLoadImage
             effect="blur"
-            src="/About/offers/offerThumb1_1.png"
+            src="./About/offers/offerThumb1_1.png"
             alt="Thumb"
           />
         </div>
@@ -143,7 +143,7 @@ function CurdsFood() {
         <div className="absolute left-2/5 top-3 animated-shape">
           <LazyLoadImage
             effect="blur"
-            src="/About/offers/offerShape1_4.png"
+            src="./About/offers/offerShape1_4.png"
             alt="Shape"
           />
         </div>

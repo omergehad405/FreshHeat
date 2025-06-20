@@ -9,31 +9,31 @@ const dishes = [
   {
     id: 1,
     name: "chicken fried rice",
-    image: "../Home/BestSelling/dishes1_1.png",
+    image: "./Home/BestSelling/dishes1_1.png",
     price: 100.99,
   },
   {
     id: 2,
     name: "chinese pasta",
-    image: "../Home/BestSelling/dishes1_2.png",
+    image: "./Home/BestSelling/dishes1_2.png",
     price: 15.99,
   },
   {
     id: 3,
     name: "chicken pizza",
-    image: "../Home/BestSelling/dishes1_3.png",
+    image: "./Home/BestSelling/dishes1_3.png",
     price: 26.99,
   },
   {
     id: 4,
     name: "chicken noodles",
-    image: "../Home/BestSelling/dishes1_4.png",
+    image: "./Home/BestSelling/dishes1_4.png",
     price: 39.99,
   },
   {
     id: 5,
     name: "grilled chicken",
-    image: "../Home/BestSelling/dishes1_5.png",
+    image: "./Home/BestSelling/dishes1_5.png",
     price: 20.99,
   },
 ];
@@ -57,7 +57,7 @@ function Bestselling() {
   return (
     <section className="w-full p-10 relative min-h-[800px]">
       <img
-        src="../Home/BestSelling/popularDishesShape1_1.png"
+        src="./Home/BestSelling/popularDishesShape1_1.png"
         alt=""
         className="absolute left-10 bottom-10 lg:block hidden"
       />
@@ -65,11 +65,11 @@ function Bestselling() {
       <div className="mb-10 text-center">
         <h3 className="font-bold text-[var(--orange)] mb-1 relative flex items-center justify-center text-[1.2rem] gap-2">
           <span>
-            <img src="../Home/titleIcon.svg" alt="" />
+            <img src="./Home/titleIcon.svg" alt="" />
           </span>
           POPULAR DISHES
           <span>
-            <img src="../Home/titleIcon.svg" alt="" />
+            <img src="./Home/titleIcon.svg" alt="" />
           </span>
         </h3>
         <h1 className="font-bold text-[3rem]">Best selling Dishes</h1>
@@ -80,7 +80,7 @@ function Bestselling() {
           {dishes.map((dish) => (
             <div
               key={dish.id}
-              className="w-[280px] h-[350px] group relative bg-white hover:bg-[url(../backGround/dishesThumbBG.png)] bg-cover bg-center bg-no-repeat transition-all duration-560 rounded-2xl flex flex-col justify-center items-center"
+              className="w-[280px] h-[350px] group relative bg-white hover:bg-[url(./backGround/dishesThumbBG.png)] bg-cover bg-center bg-no-repeat transition-all duration-560 rounded-2xl flex flex-col justify-center items-center"
             >
               <button
                 onClick={() => {
@@ -114,7 +114,7 @@ function Bestselling() {
       </div>
 
       <img
-        src="../Home/BestSelling/popularDishesShape1_2.png"
+        src="./Home/BestSelling/popularDishesShape1_2.png"
         alt=""
         className="absolute right-10 top-10 lg:block hidden"
         ref={floatingImageRef1}

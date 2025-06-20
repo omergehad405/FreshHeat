@@ -7,7 +7,7 @@ export const BlogProvider = ({ children }) => {
     {
       id: 1,
       title: "Fast Food Frenzy a Taste of Convenience",
-      image: "../Blogs/blogThumb1_1.jpg",
+      image: "./Blogs/blogThumb1_1.jpg",
       author: "admin",
       time: {
         day: "15",
@@ -17,7 +17,7 @@ export const BlogProvider = ({ children }) => {
     {
       id: 2,
       title: "Benefits of health and safety measures",
-      image: "../Blogs/blogThumb1_2.jpg",
+      image: "./Blogs/blogThumb1_2.jpg",
       author: "admin",
       time: {
         day: "15",
@@ -27,7 +27,7 @@ export const BlogProvider = ({ children }) => {
     {
       id: 3,
       title: "Quick Cravings Unraveling Fast Food Delights",
-      image: "../Blogs/blogThumb1_3.jpg",
+      image: "./Blogs/blogThumb1_3.jpg",
       author: "admin",
       time: {
         day: "15",
@@ -37,7 +37,7 @@ export const BlogProvider = ({ children }) => {
     {
       id: 4,
       title: "Fast Food Frenzy a Taste of Convenience",
-      image: "../Blogs/blogThumb1_4.jpg",
+      image: "./Blogs/blogThumb1_4.jpg",
       author: "admin",
       time: {
         day: "15",
@@ -47,7 +47,7 @@ export const BlogProvider = ({ children }) => {
     {
       id: 5,
       title: "Benefits of health and safety measures",
-      image: "../Blogs/blogThumb1_5.jpg",
+      image: "./Blogs/blogThumb1_5.jpg",
       author: "admin",
       time: {
         day: "15",
@@ -57,7 +57,7 @@ export const BlogProvider = ({ children }) => {
     {
       id: 6,
       title: "Quick Cravings Unraveling Fast Food Delights",
-      image: "../Blogs/blogThumb1_6.jpg",
+      image: "./Blogs/blogThumb1_6.jpg",
       author: "admin",
       time: {
         day: "15",

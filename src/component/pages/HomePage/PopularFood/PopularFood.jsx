@@ -43,25 +43,25 @@ function PopularFood() {
     () => [
       {
         id: 1,
-        image: "../Home/popularFood/item1_1.png",
+        image: "./Home/popularFood/item1_1.png",
         title: "chicken pizza",
         price: 26.99,
       },
       {
         id: 2,
-        image: "../Home/popularFood/item1_3.png",
+        image: "./Home/popularFood/item1_3.png",
         title: "chicken fried rice",
         price: 100.99,
       },
       {
         id: 3,
-        image: "../Home/popularFood/item1_4.png",
+        image: "./Home/popularFood/item1_4.png",
         title: "chicken leg piece",
         price: 20.99,
       },
       {
         id: 4,
-        image: "../Home/popularFood/item1_2.png",
+        image: "./Home/popularFood/item1_2.png",
         title: "egg and cucumber",
         price: 28.0,
       },
@@ -74,17 +74,17 @@ function PopularFood() {
       <div className="relative flex flex-col justify-center items-center text-center">
         <h3 className="font-bold text-[var(--orange)] mb-1 relative flex items-center justify-center text-[1.2rem] gap-2">
           <span>
-            <img src="../Home/titleIcon.svg" alt="" />
+            <img src="./Home/titleIcon.svg" alt="" />
           </span>
           Best Food
           <span>
-            <img src="../Home/titleIcon.svg" alt="" />
+            <img src="./Home/titleIcon.svg" alt="" />
           </span>
         </h3>
         <h1 className="font-bold text-[3rem]">Popular Food Items</h1>
 
         <img
-          src="../Home/popularFood/bestFoodItemsShape1_2.png"
+          src="./Home/popularFood/bestFoodItemsShape1_2.png"
           alt="food Image"
           className="absolute bottom-[-5rem] right-0 hidden lg:block"
           ref={floatingImageRef1}
@@ -122,7 +122,7 @@ function PopularFood() {
         ))}
 
         <img
-          src="../Home/popularFood/bestFoodItemsShape1_1.png"
+          src="./Home/popularFood/bestFoodItemsShape1_1.png"
           alt="food Image"
           className="absolute bottom-0 left-0 hidden lg:block"
           ref={floatingImageRef2}

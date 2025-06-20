@@ -27,7 +27,7 @@ function Blog() {
       <div className="flex flex-col lg:flex-row justify-center gap-20 my-20 w-[80%] mx-auto ">
         <div className="p-10  ">
           <img
-            src="../Blogs/blogThumb3_1.jpg"
+            src="./Blogs/blogThumb3_1.jpg"
             alt={blog.title}
             className="mb-5 w-full max-w-[600px] border-b border-[#777] pb-3"
           />
@@ -66,13 +66,13 @@ function Blog() {
 
           <div className="flex flex-col lg:flex-row gap-5 my-10">
             <img
-              src="../Blogs/blogThumb3_2.jpg"
+              src="./Blogs/blogThumb3_2.jpg"
               alt=""
               loading="lazy"
               className="rounded-2xl border w-[350px] h-[250px]"
             />
             <img
-              src="../Blogs/blogThumb3_3.jpg"
+              src="./Blogs/blogThumb3_3.jpg"
               alt=""
               loading="lazy"
               className="rounded-2xl border w-[350px] h-[250px]"
@@ -186,7 +186,7 @@ function Blog() {
 
             <div className="flex items-center">
               <div className="flex items-center p-5 ">
-                <img src="../Blogs/blogRecentThumb3_1.png" alt="" />
+                <img src="./Blogs/blogRecentThumb3_1.png" alt="" />
                 <div>
                   <h5 className="font-bold flex items-center gap-2 ">
                     <SlCalender />
@@ -203,7 +203,7 @@ function Blog() {
             </div>
             <div className="flex items-center">
               <div className="flex items-center p-5 ">
-                <img src="../Blogs/blogRecentThumb3_1.png" alt="" />
+                <img src="./Blogs/blogRecentThumb3_1.png" alt="" />
                 <div>
                   <h5 className="font-bold flex items-center gap-2 ">
                     <SlCalender />
@@ -220,7 +220,7 @@ function Blog() {
             </div>
             <div className="flex items-center">
               <div className="flex items-center p-5 ">
-                <img src="../Blogs/blogRecentThumb3_1.png" alt="" />
+                <img src="./Blogs/blogRecentThumb3_1.png" alt="" />
                 <div>
                   <h5 className="font-bold flex items-center gap-2 ">
                     <SlCalender />

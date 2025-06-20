@@ -12,32 +12,32 @@ export const chefs = [
   {
     name: "Ralph Edwards",
     role: "Chef Lead",
-    image: "../Home/chefs/chefeThumb1_1.png",
+    image: "./Home/chefs/chefeThumb1_1.png",
   },
   {
     name: "Leslie Alexander",
     role: "Chef Assistant",
-    image: "../Home/chefs/chefeThumb1_2.png",
+    image: "./Home/chefs/chefeThumb1_2.png",
   },
   {
     name: "Ronald Richards",
     role: "Chef Assistant",
-    image: "../Home/chefs/chefeThumb1_3.png",
+    image: "./Home/chefs/chefeThumb1_3.png",
   },
   {
     name: "Jenny Wilson",
     role: "Medical Assistant",
-    image: "/public/Chefs/chefeThumb1_4.png",
+    image: "./Chefs/chefeThumb1_4.png",
   },
   {
     name: "Guy Hawkins",
     role: "Chef Assistant",
-    image: "/public/Chefs/chefeThumb1_5.png",
+    image: "./Chefs/chefeThumb1_5.png",
   },
   {
     name: "Robert Fox",
     role: "Chef Assistant",
-    image: "/public/Chefs/chefeThumb1_6.png",
+    image: "./Chefs/chefeThumb1_6.png",
   },
 ];
 
@@ -108,13 +108,13 @@ function Main() {
         ref={img1Ref}
         className="absolute top-0 -left-45 mt-16 hidden xl:block"
       >
-        <img src="/public/Chefs/chefeShape1_1.png" alt="Img" />
+        <img src="./Chefs/chefeShape1_1.png" alt="Img" />
       </div>
       <div
         ref={img2Ref}
         className="absolute bottom-0 -right-40 mb-16 hidden xl:block"
       >
-        <img src="/public/Chefs/chefeShape1_2.png" alt="Img" />
+        <img src="./Chefs/chefeShape1_2.png" alt="Img" />
       </div>
     </section>
   );

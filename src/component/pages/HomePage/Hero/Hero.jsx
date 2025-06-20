@@ -8,32 +8,32 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 
 const sideImages = {
-  right: "../Home/heroSection/homeBanner1.svg",
-  leftBottom: "../Home/heroSection/homeBanner3.svg",
-  centerBottom: "../Home/heroSection/homeBanner2.svg",
+  right: "./Home/heroSection/homeBanner1.svg",
+  leftBottom: "./Home/heroSection/homeBanner3.svg",
+  centerBottom: "./Home/heroSection/homeBanner2.svg",
 };
 
 const banners = [
   {
     id: 1,
     subtitle: "spicy fried chicken",
-    image: "../Home/heroSection/homeBannerThumb1_1.png",
+    image: "./Home/heroSection/homeBannerThumb1_1.png",
   },
   {
     id: 2,
     subtitle: "chicken deep pizza king",
-    image: "../Home/heroSection/homeBannerThumb1_2.png",
+    image: "./Home/heroSection/homeBannerThumb1_2.png",
   },
   {
     id: 3,
     subtitle: "chicago deep purger king",
-    image: "../Home/heroSection/homeBannerThumb1_3.png",
+    image: "./Home/heroSection/homeBannerThumb1_3.png",
   },
 ];
 
 function Hero() {
   return (
-    <section className='relative w-full bg-[url("../backGround/bannerBG1_1.jpg")] bg-cover min-h-[86vh] bg-no-repeat bg-center'>
+    <section className='relative w-full bg-[url("./backGround/bannerBG1_1.jpg")] bg-cover min-h-[86vh] bg-no-repeat bg-center'>
       <div className="flex items-center justify-center gap-10 absolute inset-0">
         <Swiper
           modules={[Navigation, Autoplay]}

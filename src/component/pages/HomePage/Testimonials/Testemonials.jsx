@@ -8,21 +8,21 @@ const testimonials = [
   {
     name: "Albert Flores",
     role: "Web Designer",
-    image: "../Home/testomonials/testimonialProfile1_1.png",
+    image: "./Home/testomonials/testimonialProfile1_1.png",
     text: "Penatibus magnis dis point parturient montes nascetur ridiculus mus Ut id lorem ac enim the vestibulum blandit nec sit amet felis. Fusce quis diam odio Cras mattis mi quis tincidunt",
     stars: 4,
   },
   {
     name: "Sam Wilson",
     role: "UI/UX Designer",
-    image: "../Home/testomonials/testimonialProfile1_1.png",
+    image: "./Home/testomonials/testimonialProfile1_1.png",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan.",
     stars: 5,
   },
   {
     name: "Robert Fox",
     role: "Frontend Developer",
-    image: "../Home/testomonials/testimonialProfile1_1.png",
+    image: "./Home/testomonials/testimonialProfile1_1.png",
     text: "Curabitur ac lacus arcu. Sed vehicula varius lectus auctor viverra. Nulla vehicula, sapien non hendrerit pretium, enim urna ultrices risus.",
     stars: 5,
   },
@@ -32,7 +32,7 @@ function Testemonials() {
   return (
     <section className="bg-[#181818] relative my-[5rem] flex items-center justify-center w-full h-[750px] p-10">
       <img
-        src="../Home/testomonials/testimonialThumb1_1.png"
+        src="./Home/testomonials/testimonialThumb1_1.png"
         alt="decorative background"
         loading="lazy"
         className="absolute left-0 top-0"
@@ -42,15 +42,11 @@ function Testemonials() {
         <div className="mb-[2rem]">
           <h3 className="font-bold text-[var(--orange)] relative flex items-center justify-center text-[1.2rem] gap-2">
             <span>
-              <img src="../Home/titleIcon.svg" alt="icon left" loading="lazy" />
+              <img src="./Home/titleIcon.svg" alt="icon left" loading="lazy" />
             </span>
             Testimonials
             <span>
-              <img
-                src="../Home/titleIcon.svg"
-                alt="icon right"
-                loading="lazy"
-              />
+              <img src="./Home/titleIcon.svg" alt="icon right" loading="lazy" />
             </span>
           </h3>
           <h1 className="font-bold text-[3rem] capitalize text-white">

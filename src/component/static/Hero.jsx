@@ -6,7 +6,7 @@ function Hero({ title, left, right }) {
       <img
         effect="blur"
         alt="BreadCumb"
-        src="../backGround/breadcumbBg.jpg"
+        src="./backGround/breadcumbBg.jpg"
         className="absolute w-full h-full object-cover bg-no-repeat -z-10"
       />
 

@@ -12,17 +12,17 @@ const chefs = [
   {
     name: "Ralph Edwards",
     role: "Chef Lead",
-    image: "../Home/chefs/chefeThumb1_1.png",
+    image: "./Home/chefs/chefeThumb1_1.png",
   },
   {
     name: "Leslie Alexander",
     role: "Chef Assistant",
-    image: "../Home/chefs/chefeThumb1_2.png",
+    image: "./Home/chefs/chefeThumb1_2.png",
   },
   {
     name: "Ronald Richards",
     role: "Chef Assistant",
-    image: "../Home/chefs/chefeThumb1_3.png",
+    image: "./Home/chefs/chefeThumb1_3.png",
   },
 ];
 
@@ -32,11 +32,11 @@ function ChefsSection() {
       <div className="mb-10">
         <h3 className="font-bold text-[var(--orange)] mb-1 relative flex items-center justify-center text-[1.2rem] gap-2">
           <span>
-            <img src="../Home/titleIcon.svg" alt="title icon" loading="lazy" />
+            <img src="./Home/titleIcon.svg" alt="title icon" loading="lazy" />
           </span>
           OUR CHEFE
           <span>
-            <img src="../Home/titleIcon.svg" alt="title icon" loading="lazy" />
+            <img src="./Home/titleIcon.svg" alt="title icon" loading="lazy" />
           </span>
         </h3>
         <h1 className="font-bold text-[3rem] text-center">
@@ -112,7 +112,7 @@ function ChefsSection() {
           ].map((img, i) => (
             <SwiperSlide key={i}>
               <img
-                src={`../Home/chefs/${img}`}
+                src={`./Home/chefs/${img}`}
                 alt={`client logo ${i + 1}`}
                 loading="lazy"
               />

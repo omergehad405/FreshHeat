@@ -28,7 +28,7 @@ function Offer() {
       title: "SPICY FRIED CHICKEN",
       subtitle: "Limited Time Offer",
       buttonColor: null,
-      thumb: "../Home/offers/offerThumb1_1.png",
+      thumb: "./Home/offers/offerThumb1_1.png",
     },
     {
       id: 2,
@@ -39,7 +39,7 @@ function Offer() {
         bg: "var(--orange)",
         hoverBg: "var(--red)",
       },
-      thumb: "../Home/offers/offerThumb1_2.png",
+      thumb: "./Home/offers/offerThumb1_2.png",
     },
     {
       id: 3,
@@ -47,7 +47,7 @@ function Offer() {
       title: "SPECIAL CHICKEN ROLL",
       subtitle: "Limited Time Offer",
       buttonColor: null,
-      thumb: "../Home/offers/offerThumb1_3.png",
+      thumb: "./Home/offers/offerThumb1_3.png",
     },
   ];
 
@@ -56,7 +56,7 @@ function Offer() {
       {offerItems.map((item, index) => (
         <div
           key={item.id}
-          className='flex items-center justify-evenly w-[600px] h-[270px] max-w-[90%] p-5 bg-[url("../backGround/offerBG1_1.jpg")] bg-cover bg-no-repeat bg-center'
+          className='flex items-center justify-evenly w-[600px] h-[270px] max-w-[90%] p-5 bg-[url("./backGround/offerBG1_1.jpg")] bg-cover bg-no-repeat bg-center'
         >
           <div>
             <div className="mb-10">
@@ -78,7 +78,7 @@ function Offer() {
           </div>
           <div className="relative">
             <LazyLoadImage
-              src="../Home/offers/offerShape1_4.png"
+              src="./Home/offers/offerShape1_4.png"
               alt="discount image"
               className="absolute -top-5 -left-5"
               ref={(el) => (floatingImageRefs.current[index] = el)}

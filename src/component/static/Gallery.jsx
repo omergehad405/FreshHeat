@@ -8,11 +8,11 @@ import { Autoplay } from "swiper/modules";
 import "swiper/css";
 
 const images = [
-  "../Home/gallery/galleryThumb1_1.jpg",
-  "../Home/gallery/galleryThumb1_2.jpg",
-  "../Home/gallery/galleryThumb1_3.jpg",
-  "../Home/gallery/galleryThumb1_4.jpg",
-  "../Home/gallery/galleryThumb1_5.jpg",
+  "./Home/gallery/galleryThumb1_1.jpg",
+  "./Home/gallery/galleryThumb1_2.jpg",
+  "./Home/gallery/galleryThumb1_3.jpg",
+  "./Home/gallery/galleryThumb1_4.jpg",
+  "./Home/gallery/galleryThumb1_5.jpg",
 ];
 
 function Gallery() {

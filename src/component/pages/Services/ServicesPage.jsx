@@ -14,42 +14,42 @@ function ServicesPage() {
       title: "Dining Guides",
       description:
         "Detailed reviews of local eateries, covering various cuisines, price points, and dining experiences.",
-      image: "../Service/servicesIcon1_1.png",
+      image: "./Service/servicesIcon1_1.png",
     },
     {
       id: 2,
       title: "100% Fresh Food",
       description:
         "Detailed reviews of local eateries, covering various cuisines, price points, and dining experiences.",
-      image: "../Service/servicesIcon1_2.png",
+      image: "./Service/servicesIcon1_2.png",
     },
     {
       id: 3,
       title: "Special Offers and Discounts",
       description:
         "Detailed reviews of local eateries, covering various cuisines, price points, and dining experiences.",
-      image: "../Service/servicesIcon1_3.png",
+      image: "./Service/servicesIcon1_3.png",
     },
     {
       id: 4,
       title: "Restaurant Reviews",
       description:
         "Detailed reviews of local eateries, covering various cuisines, price points, and dining experiences.",
-      image: "../Service/servicesIcon1_4.png",
+      image: "./Service/servicesIcon1_4.png",
     },
     {
       id: 5,
       title: "Food Testing Events",
       description:
         "Detailed reviews of local eateries, covering various cuisines, price points, and dining experiences.",
-      image: "../Service/servicesIcon1_5.png",
+      image: "./Service/servicesIcon1_5.png",
     },
     {
       id: 6,
       title: "Online Ordering",
       description:
         "Detailed reviews of local eateries, covering various cuisines, price points, and dining experiences.",
-      image: "../Service/servicesIcon1_6.png",
+      image: "./Service/servicesIcon1_6.png",
     },
   ];
   return (

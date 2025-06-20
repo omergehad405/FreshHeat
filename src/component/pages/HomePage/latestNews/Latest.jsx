@@ -10,7 +10,7 @@ function Latest() {
   return (
     <section className="relative mt-10 mb-20 w-full min-h-[500px]">
       <img
-        src="../Home/latestFood/pizza-shape.png"
+        src="./Home/latestFood/pizza-shape.png"
         alt="decorative pizza shape"
         loading="lazy"
         className="absolute top-0 right-0 hidden lg:block"
@@ -20,23 +20,20 @@ function Latest() {
         <h3 className="font-bold text-[var(--orange)] mb-1 relative flex items-center justify-center text-[1.2rem] gap-2">
           <span>
             <img
-              src="../Home/titleIcon.svg"
+              src="./Home/titleIcon.svg"
               alt="title icon left"
               loading="lazy"
             />
           </span>
-          OUR CHEFE
+          Latest News
           <span>
             <img
-              src="../Home/titleIcon.svg"
+              src="./Home/titleIcon.svg"
               alt="title icon right"
               loading="lazy"
             />
           </span>
         </h3>
-        <h1 className="font-bold text-[3rem] text-center">
-          Meet Our Expert Chefe
-        </h1>
       </div>
 
       <div className="mx-auto flex items-center justify-center gap-10 flex-wrap">
@@ -75,7 +72,7 @@ function Latest() {
       </div>
 
       <img
-        src="../Home/latestFood/burger-shape.png"
+        src="./Home/latestFood/burger-shape.png"
         alt="decorative burger shape"
         loading="lazy"
         className="absolute bottom-0 left-0 hidden lg:block"
